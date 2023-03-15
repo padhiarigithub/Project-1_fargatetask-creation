@@ -1,16 +1,16 @@
 name: 'Books Dev Terraform'
 
 on:
-  push:
-    branches: 
-      - main
-      - ISPB-4.0.1 
   workflow_dispatch:
     inputs:
       environment:
         description: 'Test/Prod'
         required: true
-        #default: 'Default value'
+        default: 'Default value'
+  push:
+    branches: 
+      - main
+      - ISPB-4.0.1 
 
 
 
