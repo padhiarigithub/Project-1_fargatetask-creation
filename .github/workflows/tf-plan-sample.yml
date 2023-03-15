@@ -10,7 +10,7 @@ on:
       environment:
         description: 'Test/Prod'
         required: true
-        default: 'Default value'
+        #default: 'Default value'
 
 
 
