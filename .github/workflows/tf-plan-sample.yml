@@ -7,10 +7,10 @@ on:
         description: 'Test/Prod'
         required: true
         default: 'Default value'
-  push:
-    branches: 
-      - main
-      - ISPB-4.0.1 
+#   push:
+#     branches: 
+#       - main
+#       - ISPB-4.0.1 
 
 
 
